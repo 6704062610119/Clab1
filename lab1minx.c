@@ -7,11 +7,13 @@ int main() {
 	scanf("%d", &num2);
 	if (num1>num2 ) 
 	{
-		printf("num1 greater than num2");	
+		int total=num1-num2;
+		printf("num1 greater than num2 %d",total);	
 	} 
 	else 
 	{
-		printf("num2 greater than num1");
+		int total=num1-num2;
+		printf("num2 greater than num1 %d",total);
 	}
 }
 
